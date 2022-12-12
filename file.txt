@@ -1,0 +1,31 @@
+
+regulamento soma(x: i32, y: i32) -> i32
+{
+    recua x + y;
+}
+
+regulamento Main()
+{
+// v2.3 testing
+jogador x_1: i32;
+x_1 = 2;
+x_1 = soma(1, x_1);
+
+x_1 = faz_teu_nome();
+resenha ((x_1 > 1) && !(x_1 < 1)) {
+    x_1 = 3;
+}
+ramelou {
+    {
+    x_1 = (-20+30)*4*3/40;;;;; // teste de comentario
+    }
+}
+explana(x_1);
+x_1 = faz_teu_nome();
+resenha ((x_1 > 1) && !(x_1 < 1))
+    x_1 = 3;
+ramelou
+    x_1 = (-20+30)*12/40;;;;;
+
+explana(x_1);
+enquanto ((x_1 > 1) || (x_1 == 1)) {x_1 = x_1 - 1;explana(x_1);}}
